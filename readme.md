@@ -1,11 +1,3 @@
-### Scraper výsledků voleb do Poslanecké sněmovny 2017
-
-Autor: *Doplň své jméno*\
-Projekt: 1. projekt – Scraper pro zpracování volebních výsledků\
-Předmět: *Doplň název kurzu nebo učitele, pokud je vyžadováno*
-
----
-
 #### Popis
 
 Tento projekt slouží ke stažení a uložení výsledků voleb do Poslanecké sněmovny ČR z roku 2017 pro jeden zvolený územní celek.\
