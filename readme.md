@@ -1,4 +1,4 @@
-### 🗳️ Scraper výsledků voleb do Poslanecké sněmovny 2017
+### Scraper výsledků voleb do Poslanecké sněmovny 2017
 
 Autor: *Doplň své jméno*\
 Projekt: 1. projekt – Scraper pro zpracování volebních výsledků\
@@ -6,14 +6,14 @@ Předmět: *Doplň název kurzu nebo učitele, pokud je vyžadováno*
 
 ---
 
-#### 📄 Popis
+#### Popis
 
 Tento projekt slouží ke stažení a uložení výsledků voleb do Poslanecké sněmovny ČR z roku 2017 pro jeden zvolený územní celek.\
 Na základě odkazu na konkrétní okresní stránku na webu [volby.cz](https://www.volby.cz/) stáhne data pro všechny obce v daném okrese a uloží je do CSV souboru, který je kompatibilní s Microsoft Excelem.
 
 ---
 
-#### 🧪 Ukázka spuštění
+#### Ukázka spuštění
 
 ```bash
 python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2102" "vysledky_kolin.csv"
@@ -21,7 +21,7 @@ python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnu
 
 ---
 
-#### ✅ Vstupní argumenty
+#### Vstupní argumenty
 
 1. **URL adresa** – odkaz na stránku s výběrem obcí daného okresu\
    (např. Kolín: `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2102`)
@@ -31,7 +31,7 @@ Pokud nejsou zadány oba argumenty správně, program se ukončí s upozornění
 
 ---
 
-#### 🧹 Výstupní CSV obsahuje:
+#### Výstupní CSV obsahuje:
 
 - kód obce
 - název obce
@@ -42,7 +42,7 @@ Pokud nejsou zadány oba argumenty správně, program se ukončí s upozornění
 
 ---
 
-#### 📦 Instalace knihoven
+#### Instalace knihoven
 
 Nainstaluj požadované knihovny pomocí `requirements.txt`:
 
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ---
 
-#### 📂 Požadované knihovny (`requirements.txt`)
+#### Požadované knihovny (`requirements.txt`)
 
 ```
 requests==2.31.0
@@ -61,7 +61,7 @@ beautifulsoup4==4.12.2
 
 ---
 
-#### 📁 Struktura projektu
+#### Struktura projektu
 
 ```
 projekt/
